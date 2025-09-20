@@ -18,3 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('theme', next);
     });
   }
+
+  // Simple rotating words in hero
+  const words = Array.from(document.querySelectorAll('.rotate b'));
+  let i = 0;
+  if (words.length) {
+    setInterval(() => {
+      words[i].classList.remove('active');
+      i = (i + 1) % words.length;
+      words[i].classList.add('active');
+    }, 2200);
+  }
+});
