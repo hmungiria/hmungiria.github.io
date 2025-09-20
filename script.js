@@ -36,3 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     el.addEventListener('click', () => {
       alert('The website to be improved. Project links to be provided!');
     });
+  });
+  const projectsBtn = document.getElementById('projectsBtn');
+  projectsBtn?.addEventListener('click', () => {
+    alert('The website to be improved. Project links to be provided!');
+  });
+});
