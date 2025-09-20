@@ -30,3 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2200);
   }
 });
+
+  // Projects button simple alert
+  document.querySelectorAll('a[href="#projects"]').forEach(el => {
+    el.addEventListener('click', () => {
+      alert('The website to be improved. Project links to be provided!');
+    });
