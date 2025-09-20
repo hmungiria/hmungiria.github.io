@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '#projectsBtn, a[href="#projects"], a[href="/#projects"], [data-projects-btn]'
     );
     if (projectsTrigger) {
-      alert('The website to be improved. Project links to be added later!');
+      alert('The website to be improved. Projects links to be added later!');
     }
   });
 });
